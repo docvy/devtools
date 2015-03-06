@@ -1,7 +1,7 @@
 
 # docvy-devtools
 
-A Collection for tools to help in developing the Docvy App.
+A Collection of tools to help in developing the Docvy App.
 
 
 ## tools:
