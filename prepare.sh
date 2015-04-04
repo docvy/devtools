@@ -5,6 +5,10 @@
 # Copyright (c) 2015 GochoMugo <mugo@forfuture.co.ke>
 
 
+# utilities
+source utils.sh
+
+
 # a listing of github shorthands to the app components
 COMPONENTS_GITHUB=(
   "GochoMugo/docvy-app"
@@ -14,25 +18,8 @@ COMPONENTS_GITHUB=(
   "GochoMugo/docvy-viewer"
 )
 
-
-# Colors for Bash
-COLOR_BLUE="\033[0;34m"
-COLOR_GREEN="\033[0;32m"
-COLOR_RED="\033[0;31m"
-COLOR_RESET="\e[0m"
-COLOR_WHITE="\033[1;37m"
-
-
-# logs to console
-#
-# ${1}  message to write to console
-# ${2} what color to use. 0 - info(blue), 1- success(green), 2 - error(red)
-log() {
-  [ ${2} -eq 0 ] && local color=${COLOR_BLUE}
-  [ ${2} -eq 1 ] && local color=${COLOR_GREEN}
-  [ ${2} -eq 2 ] && local color=${COLOR_RED}
-  echo -e "${COLOR_WHITE}prepare: ${color}${1}${COLOR_RESET}"
-}
+# title of logging in this script
+LOG_TITLE="prepare"
 
 
 # clones all the repos for the components
