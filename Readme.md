@@ -27,4 +27,6 @@ __Caveats:__
 
 __The MIT License (MIT)__
 
+Copyright (c) 2015 Forfuture <we@forfuture.co.ke>
 Copyright (c) 2015 GochoMugo <mugo@forfuture.co.ke>
+

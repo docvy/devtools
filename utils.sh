@@ -1,9 +1,6 @@
 #
 # Overly-used utilities
 #
-# Raw Url: https://raw.githubusercontent.com/GochoMugo/docvy-devtools\
-# /master/utils.sh
-#
 
 
 # Colors for Bash

@@ -3,6 +3,7 @@
 #
 # The MIT License (MIT)
 # Copyright (c) 2015 GochoMugo <mugo@forfuture.co.ke>
+#
 
 
 # utilities
@@ -11,11 +12,11 @@ source utils.sh
 
 # a listing of github shorthands to the app components
 COMPONENTS_GITHUB=(
-  "GochoMugo/docvy-app"
-  "GochoMugo/docvy-plugin-installer"
-  "GochoMugo/docvy-server"
-  "GochoMugo/docvy-utils"
-  "GochoMugo/docvy-viewer"
+  "docvy/app"
+  "docvy/plugin-installer"
+  "docvy/server"
+  "docvy/utils"
+  "docvy/viewer"
 )
 
 # title of logging in this script
@@ -73,3 +74,4 @@ make_links() {
 make_new_workspace ${1}
 get_components
 make_links
+
